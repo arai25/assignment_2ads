@@ -5,15 +5,15 @@ package pac;
  * @param <T> the type of elements stored in the linked list
  */
 public class MyLinkedList<T> implements MyList<T> {
-    private Node<T> head; // Reference to the first node in the linked list
-    private int size;     // Number of elements in the linked list
+    private Node<T> head;
+    private int size;
 
     /**
      * Constructs an empty linked list.
      */
     public MyLinkedList() {
-        head = null; // Initially, the list is empty
-        size = 0;    // Size is initialized to zero
+        head = null;
+        size = 0;
     }
 
     /**
